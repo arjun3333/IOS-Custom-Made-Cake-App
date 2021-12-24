@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C478A7D27757DED0061D1B9 /* DashboardScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C478A7C27757DED0061D1B9 /* DashboardScreenView.swift */; };
+		3C478A7F27757E7F0061D1B9 /* NavigationBarScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C478A7E27757E7F0061D1B9 /* NavigationBarScreenView.swift */; };
+		3C478A8127757EB70061D1B9 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C478A8027757EB70061D1B9 /* HomeScreenView.swift */; };
+		3C478A8327757F060061D1B9 /* LogoScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C478A8227757F060061D1B9 /* LogoScreenView.swift */; };
 		B4D3D39E277523B300135DD2 /* cakeApplicatiionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D39D277523B300135DD2 /* cakeApplicatiionApp.swift */; };
 		B4D3D3A0277523B300135DD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D39F277523B300135DD2 /* ContentView.swift */; };
 		B4D3D3A2277523B400135DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D3D3A1277523B400135DD2 /* Assets.xcassets */; };
@@ -47,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C478A7C27757DED0061D1B9 /* DashboardScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScreenView.swift; sourceTree = "<group>"; };
+		3C478A7E27757E7F0061D1B9 /* NavigationBarScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarScreenView.swift; sourceTree = "<group>"; };
+		3C478A8027757EB70061D1B9 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		3C478A8227757F060061D1B9 /* LogoScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoScreenView.swift; sourceTree = "<group>"; };
 		B4D3D39A277523B300135DD2 /* cakeApplicatiion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cakeApplicatiion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D3D39D277523B300135DD2 /* cakeApplicatiionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cakeApplicatiionApp.swift; sourceTree = "<group>"; };
 		B4D3D39F277523B300135DD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -170,6 +178,10 @@
 				DCAD76DA277566670055043F /* TitleView.swift */,
 				DCAD76DC27756B290055043F /* CakeDetailScreenView.swift */,
 				DCAD76DE27756C120055043F /* CakeItemScreenView.swift */,
+				3C478A7C27757DED0061D1B9 /* DashboardScreenView.swift */,
+				3C478A7E27757E7F0061D1B9 /* NavigationBarScreenView.swift */,
+				3C478A8027757EB70061D1B9 /* HomeScreenView.swift */,
+				3C478A8227757F060061D1B9 /* LogoScreenView.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -307,12 +319,16 @@
 				B4D3D3A7277523B400135DD2 /* Persistence.swift in Sources */,
 				B4D3D3D827754F3800135DD2 /* CreateScreen.swift in Sources */,
 				DCAD76D92775644E0055043F /* ProductModel.swift in Sources */,
+				3C478A8127757EB70061D1B9 /* HomeScreenView.swift in Sources */,
 				B4D3D3E22775512D00135DD2 /* SignInScreenView.swift in Sources */,
 				DCAD76DB277566670055043F /* TitleView.swift in Sources */,
+				3C478A7F27757E7F0061D1B9 /* NavigationBarScreenView.swift in Sources */,
 				B4D3D3D627754EFB00135DD2 /* TabBarScreenView.swift in Sources */,
 				B4D3D3A0277523B300135DD2 /* ContentView.swift in Sources */,
+				3C478A7D27757DED0061D1B9 /* DashboardScreenView.swift in Sources */,
 				B4D3D3DE277550F200135DD2 /* ForgotPasswordScreenView.swift in Sources */,
 				B4D3D3AA277523B400135DD2 /* cakeApplicatiion.xcdatamodeld in Sources */,
+				3C478A8327757F060061D1B9 /* LogoScreenView.swift in Sources */,
 				DCAD76DD27756B290055043F /* CakeDetailScreenView.swift in Sources */,
 				B4D3D39E277523B300135DD2 /* cakeApplicatiionApp.swift in Sources */,
 				B4D3D3D427754ED200135DD2 /* CreateModel.swift in Sources */,

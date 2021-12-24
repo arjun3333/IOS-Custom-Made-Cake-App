@@ -1,32 +1,31 @@
 //
-//  HomeScreenView.swift
+//  DashboardScreenView.swift
 //  cakeApplication
 //
-//  Created by Shivanee Patel on 2021-12-09.
+//  Created by Shivanee Patel on 2021-12-10.
 //
 
 import SwiftUI
 
-struct HomeScreenView: View {
-        
+struct DashboardScreenView: View {
     @State var index = 0
     
     var body: some View {
-                
+
         ZStack {
+            Color("BGColor").edgesIgnoringSafeArea(.all)
+
             VStack (spacing: 0) {
-                
+                                
                 // Navigation Bar
                 NavigationBarScreenView ( )
                     .padding(.horizontal,15)
                     .padding(.bottom)
                     .padding(.top,0)
                     .background(Color("PrimaryColor"))
-                                
                 Spacer( )
                 Spacer( )
 
-                
                 if self.index == 0 {
                     // Own Cake Box
                     VStack (spacing: 20) {
@@ -38,11 +37,11 @@ struct HomeScreenView: View {
                                     .foregroundColor(Color("PrimaryColor"))
                                 
                                 Text("Make cakes for your loved once")
-                                    .font(.title2.italic())
+                                    .font(.title2.italic( ))
                                 
                                 NavigationLink(
                                     destination:
-                                        LoginScreenView().navigationBarHidden(true),
+                                        DashboardScreenView( ).navigationBarHidden(true),
                                     label: {
                                         Text("Create")
                                             .font(.title2)
@@ -82,7 +81,7 @@ struct HomeScreenView: View {
                                     
                                     NavigationLink(
                                         destination:
-                                            CakeItemScreenView( ).navigationBarHidden(true),
+                                            DashboardScreenView( ).navigationBarHidden(true),
                                         label: {
                                             Text("More")
                                                 .font(.title2)
@@ -107,63 +106,158 @@ struct HomeScreenView: View {
                             .padding(.horizontal,25)
                         
                             Spacer( )
+                            
+//
+//                                VStack {
+//                                    ScrollView(.horizontal, showsIndicators: false) {
+//                                        HStack {
+//                                            ForEach(1..<6) { i in
+//                                                CardView(cake: "cake\(i)")
+//                                                    .padding(6)
+//                                            }
+//                                        }
+//                                    }
+//                                }
                     }
                 }
                 else if self.index == 1 {
-                                        
+
                     CakeItemScreenView( )
-                              
-//                    LazyVGrid(columns: gridLayout, spacing: 15,  content: {
-                            
-//                        ForEach(products) { product in
-//                            ProductItemView(product: product)
-//                        }
-                        
-//                    } )
-                    
-                    
-//                    ZStack {
-//                        VStack(spacing: 0) {
-//                            ScrollView {
-//                                VStack(spacing: 0) {
-//                                    Text("Cake")
-//                                    font(.title2.bold())
-//                                        .background(Color("PrimaryColor"))
-//                                        .foregroundColor(Color.white)
-//                                        .padding()
-//
-//                                }
-//                            }
-//                        }
-//                    }
-                                        
+
                 }
                else if self.index == 2 {
+
+                   FavouriteScreenView( )
                    
-                   Color.green.edgesIgnoringSafeArea(.top)
                }
-                else {
+                else if self.index == 3 {
+                        
+                    AccountScreenView( )
                     
-                    Color.blue.edgesIgnoringSafeArea(.top)
+                }
+                else {
+                        
+                    CreateScreen( )
                 }
                 
-//                MenuScreenView( )
                 Spacer( )
                 
                 // Tab Bar
                 TabView(index: self.$index )
-                
+                    .padding(.bottom,0)
+//                Spacer(minLength: 0)
+
             }
             .background(Color.black.opacity(0.05).edgesIgnoringSafeArea(.top))
+            .edgesIgnoringSafeArea(.all)
         }
     }
 }
 
-struct HomeScreenView_Previews: PreviewProvider {
+struct DashboardScreenView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeScreenView( )
+        DashboardScreenView( )
             .previewLayout(.sizeThatFits)
             .background(Color.white)
     }
 }
+
+
+struct CardView: View {
+    var cake = ""
+    var body: some View {
+        VStack {
+            Image(cake)
+        }
+        .frame(width: 250, height: 400)
+        .cornerRadius(30)
+        .shadow(radius: 20)
+    }
+
+}
+
+struct Product: Decodable, Identifiable {
+    let id: Int
+    let name: String
+    let image: String
+    let price: String
+    let description: String
+    let color: [Double]
+}
+
+struct TabView : View {
+    @Binding var index: Int
+    var body: some View {
+        
+        HStack {
+            
+            // Home
+            Button(action: {
+                self.index = 0
+            }) {
+                Image("home3")
+            }
+            .foregroundColor(Color("PrimaryColor").opacity(self.index == 0 ? 1 : 0.1) )
+            .offset(x: -10)
+            Spacer(minLength: 0)
+            
+            // Pre Made Cake
+            Button(action: {
+                self.index = 1
+            }) {
+                Image("search_menu")
+            }
+            .foregroundColor(Color("PrimaryColor").opacity(self.index == 1 ? 1 : 0.2) )
+            Spacer(minLength: 0)
+
+            // Create
+            Button(action: {
+                self.index = 4
+            }) {
+                Image("cake_menu").renderingMode(.original)
+            }
+            .offset(y: -22)
+            Spacer(minLength: 0)
+            
+            // Favourites
+            Button(action: {
+                self.index = 2
+            }) {
+                Image("fav_menu")
+            }
+            .foregroundColor(Color("PrimaryColor").opacity(self.index == 2 ? 1 : 0.2) )
+            .offset(x: 10)
+            Spacer(minLength: 0)
+
+            // Profile
+            Button(action: {
+                self.index = 3
+            }) {
+                Image("account_menu")
+            }
+            .foregroundColor(Color("PrimaryColor").opacity(self.index == 3 ? 1 : 0.2) )
+            .offset(x: 10)
+        }
+        .padding(.horizontal,45)
+        .padding(.top,40)
+        .padding(.bottom, 20)
+        .background(Color("PrimaryColor"))
+        .clipShape(CShape( ))
+    }
+}
+
+struct CShape : Shape {
+    func path(in rect: CGRect) -> Path {
+        return Path{path in
+            path.move(to: CGPoint(x: 0, y: 25))
+            path.addLine(to: CGPoint(x: 0, y: rect.height) )
+            path.addLine(to: CGPoint(x: rect.width, y: rect.height) )
+            path.addLine(to: CGPoint(x: rect.width, y: 25) )
+
+            path.addArc(center: CGPoint(x: (rect.width / 2) + 4, y: 25), radius: 25, startAngle: .zero, endAngle: .init(degrees: 180), clockwise: true)
+        }
+    }
+    
+}
+
 
