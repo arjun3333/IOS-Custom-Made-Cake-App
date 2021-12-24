@@ -21,7 +21,6 @@
 		B4D3D3D627754EFB00135DD2 /* TabBarScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3D527754EFB00135DD2 /* TabBarScreenView.swift */; };
 		B4D3D3D827754F3800135DD2 /* CreateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3D727754F3800135DD2 /* CreateScreen.swift */; };
 		B4D3D3DA27754FD000135DD2 /* AccountScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3D927754FD000135DD2 /* AccountScreenView.swift */; };
-		B4D3D3DC2775503A00135DD2 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3DB2775503A00135DD2 /* ProductModel.swift */; };
 		B4D3D3DE277550F200135DD2 /* ForgotPasswordScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3DD277550F200135DD2 /* ForgotPasswordScreenView.swift */; };
 		B4D3D3E02775511000135DD2 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3DF2775511000135DD2 /* HomeScreenView.swift */; };
 		B4D3D3E22775512D00135DD2 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3E12775512D00135DD2 /* SignInScreenView.swift */; };
@@ -29,6 +28,7 @@
 		B4D3D3E6277554C400135DD2 /* NavigationBarScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3E5277554C400135DD2 /* NavigationBarScreenView.swift */; };
 		B4D3D3E8277554D700135DD2 /* CakeItemScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3E7277554D700135DD2 /* CakeItemScreenView.swift */; };
 		B4D3D3EA2775551000135DD2 /* FavouriteScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3E92775551000135DD2 /* FavouriteScreenView.swift */; };
+		DCAD76D92775644E0055043F /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD76D82775644E0055043F /* ProductModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,6 @@
 		B4D3D3D527754EFB00135DD2 /* TabBarScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarScreenView.swift; sourceTree = "<group>"; };
 		B4D3D3D727754F3800135DD2 /* CreateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreen.swift; sourceTree = "<group>"; };
 		B4D3D3D927754FD000135DD2 /* AccountScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountScreenView.swift; sourceTree = "<group>"; };
-		B4D3D3DB2775503A00135DD2 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		B4D3D3DD277550F200135DD2 /* ForgotPasswordScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordScreenView.swift; sourceTree = "<group>"; };
 		B4D3D3DF2775511000135DD2 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		B4D3D3E12775512D00135DD2 /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
@@ -74,6 +73,7 @@
 		B4D3D3E5277554C400135DD2 /* NavigationBarScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarScreenView.swift; sourceTree = "<group>"; };
 		B4D3D3E7277554D700135DD2 /* CakeItemScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeItemScreenView.swift; sourceTree = "<group>"; };
 		B4D3D3E92775551000135DD2 /* FavouriteScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteScreenView.swift; sourceTree = "<group>"; };
+		DCAD76D82775644E0055043F /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,13 +169,13 @@
 				B4D3D3D727754F3800135DD2 /* CreateScreen.swift */,
 				B4D3D3D927754FD000135DD2 /* AccountScreenView.swift */,
 				B4D3D3E12775512D00135DD2 /* SignInScreenView.swift */,
-				B4D3D3DB2775503A00135DD2 /* ProductModel.swift */,
 				B4D3D3DD277550F200135DD2 /* ForgotPasswordScreenView.swift */,
 				B4D3D3DF2775511000135DD2 /* HomeScreenView.swift */,
 				B4D3D3E3277552A000135DD2 /* CakeDetailScreenView.swift */,
 				B4D3D3E5277554C400135DD2 /* NavigationBarScreenView.swift */,
 				B4D3D3E7277554D700135DD2 /* CakeItemScreenView.swift */,
 				B4D3D3E92775551000135DD2 /* FavouriteScreenView.swift */,
+				DCAD76D82775644E0055043F /* ProductModel.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -313,6 +313,7 @@
 				B4D3D3A7277523B400135DD2 /* Persistence.swift in Sources */,
 				B4D3D3E8277554D700135DD2 /* CakeItemScreenView.swift in Sources */,
 				B4D3D3D827754F3800135DD2 /* CreateScreen.swift in Sources */,
+				DCAD76D92775644E0055043F /* ProductModel.swift in Sources */,
 				B4D3D3E22775512D00135DD2 /* SignInScreenView.swift in Sources */,
 				B4D3D3E4277552A000135DD2 /* CakeDetailScreenView.swift in Sources */,
 				B4D3D3D627754EFB00135DD2 /* TabBarScreenView.swift in Sources */,
@@ -325,7 +326,6 @@
 				B4D3D3E6277554C400135DD2 /* NavigationBarScreenView.swift in Sources */,
 				B4D3D3D427754ED200135DD2 /* CreateModel.swift in Sources */,
 				B4D3D3DA27754FD000135DD2 /* AccountScreenView.swift in Sources */,
-				B4D3D3DC2775503A00135DD2 /* ProductModel.swift in Sources */,
 				B4D3D3EA2775551000135DD2 /* FavouriteScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
