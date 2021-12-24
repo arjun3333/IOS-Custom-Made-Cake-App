@@ -28,6 +28,8 @@
 		B4D3D3EA2775551000135DD2 /* FavouriteScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3E92775551000135DD2 /* FavouriteScreenView.swift */; };
 		DCAD76D92775644E0055043F /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD76D82775644E0055043F /* ProductModel.swift */; };
 		DCAD76DB277566670055043F /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD76DA277566670055043F /* TitleView.swift */; };
+		DCAD76DD27756B290055043F /* CakeDetailScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD76DC27756B290055043F /* CakeDetailScreenView.swift */; };
+		DCAD76DF27756C120055043F /* CakeItemScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD76DE27756C120055043F /* CakeItemScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		B4D3D3E92775551000135DD2 /* FavouriteScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteScreenView.swift; sourceTree = "<group>"; };
 		DCAD76D82775644E0055043F /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		DCAD76DA277566670055043F /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		DCAD76DC27756B290055043F /* CakeDetailScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeDetailScreenView.swift; sourceTree = "<group>"; };
+		DCAD76DE27756C120055043F /* CakeItemScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeItemScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +177,8 @@
 				B4D3D3E92775551000135DD2 /* FavouriteScreenView.swift */,
 				DCAD76D82775644E0055043F /* ProductModel.swift */,
 				DCAD76DA277566670055043F /* TitleView.swift */,
+				DCAD76DC27756B290055043F /* CakeDetailScreenView.swift */,
+				DCAD76DE27756C120055043F /* CakeItemScreenView.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -317,12 +323,14 @@
 				B4D3D3A0277523B300135DD2 /* ContentView.swift in Sources */,
 				B4D3D3DE277550F200135DD2 /* ForgotPasswordScreenView.swift in Sources */,
 				B4D3D3AA277523B400135DD2 /* cakeApplicatiion.xcdatamodeld in Sources */,
+				DCAD76DD27756B290055043F /* CakeDetailScreenView.swift in Sources */,
 				B4D3D39E277523B300135DD2 /* cakeApplicatiionApp.swift in Sources */,
 				B4D3D3D227754E5600135DD2 /* DashboardScreenView.swift in Sources */,
 				B4D3D3E6277554C400135DD2 /* NavigationBarScreenView.swift in Sources */,
 				B4D3D3D427754ED200135DD2 /* CreateModel.swift in Sources */,
 				B4D3D3DA27754FD000135DD2 /* AccountScreenView.swift in Sources */,
 				B4D3D3EA2775551000135DD2 /* FavouriteScreenView.swift in Sources */,
+				DCAD76DF27756C120055043F /* CakeItemScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
