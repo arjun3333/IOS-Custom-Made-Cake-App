@@ -29,6 +29,7 @@
 		B4D3D3E8277554D700135DD2 /* CakeItemScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3E7277554D700135DD2 /* CakeItemScreenView.swift */; };
 		B4D3D3EA2775551000135DD2 /* FavouriteScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3E92775551000135DD2 /* FavouriteScreenView.swift */; };
 		DCAD76D92775644E0055043F /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD76D82775644E0055043F /* ProductModel.swift */; };
+		DCAD76DB277566670055043F /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD76DA277566670055043F /* TitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		B4D3D3E7277554D700135DD2 /* CakeItemScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeItemScreenView.swift; sourceTree = "<group>"; };
 		B4D3D3E92775551000135DD2 /* FavouriteScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteScreenView.swift; sourceTree = "<group>"; };
 		DCAD76D82775644E0055043F /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		DCAD76DA277566670055043F /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				B4D3D3E7277554D700135DD2 /* CakeItemScreenView.swift */,
 				B4D3D3E92775551000135DD2 /* FavouriteScreenView.swift */,
 				DCAD76D82775644E0055043F /* ProductModel.swift */,
+				DCAD76DA277566670055043F /* TitleView.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				B4D3D3D827754F3800135DD2 /* CreateScreen.swift in Sources */,
 				DCAD76D92775644E0055043F /* ProductModel.swift in Sources */,
 				B4D3D3E22775512D00135DD2 /* SignInScreenView.swift in Sources */,
+				DCAD76DB277566670055043F /* TitleView.swift in Sources */,
 				B4D3D3E4277552A000135DD2 /* CakeDetailScreenView.swift in Sources */,
 				B4D3D3D627754EFB00135DD2 /* TabBarScreenView.swift in Sources */,
 				B4D3D3E02775511000135DD2 /* HomeScreenView.swift in Sources */,
