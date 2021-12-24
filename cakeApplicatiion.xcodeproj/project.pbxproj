@@ -16,15 +16,12 @@
 		B4D3D3B4277523B400135DD2 /* cakeApplicatiionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3B3277523B400135DD2 /* cakeApplicatiionTests.swift */; };
 		B4D3D3BE277523B400135DD2 /* cakeApplicatiionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3BD277523B400135DD2 /* cakeApplicatiionUITests.swift */; };
 		B4D3D3C0277523B400135DD2 /* cakeApplicatiionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3BF277523B400135DD2 /* cakeApplicatiionUITestsLaunchTests.swift */; };
-		B4D3D3D227754E5600135DD2 /* DashboardScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3D127754E5600135DD2 /* DashboardScreenView.swift */; };
 		B4D3D3D427754ED200135DD2 /* CreateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3D327754ED200135DD2 /* CreateModel.swift */; };
 		B4D3D3D627754EFB00135DD2 /* TabBarScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3D527754EFB00135DD2 /* TabBarScreenView.swift */; };
 		B4D3D3D827754F3800135DD2 /* CreateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3D727754F3800135DD2 /* CreateScreen.swift */; };
 		B4D3D3DA27754FD000135DD2 /* AccountScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3D927754FD000135DD2 /* AccountScreenView.swift */; };
 		B4D3D3DE277550F200135DD2 /* ForgotPasswordScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3DD277550F200135DD2 /* ForgotPasswordScreenView.swift */; };
-		B4D3D3E02775511000135DD2 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3DF2775511000135DD2 /* HomeScreenView.swift */; };
 		B4D3D3E22775512D00135DD2 /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3E12775512D00135DD2 /* SignInScreenView.swift */; };
-		B4D3D3E6277554C400135DD2 /* NavigationBarScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3E5277554C400135DD2 /* NavigationBarScreenView.swift */; };
 		B4D3D3EA2775551000135DD2 /* FavouriteScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3D3E92775551000135DD2 /* FavouriteScreenView.swift */; };
 		DCAD76D92775644E0055043F /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD76D82775644E0055043F /* ProductModel.swift */; };
 		DCAD76DB277566670055043F /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD76DA277566670055043F /* TitleView.swift */; };
@@ -62,15 +59,12 @@
 		B4D3D3B9277523B400135DD2 /* cakeApplicatiionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cakeApplicatiionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D3D3BD277523B400135DD2 /* cakeApplicatiionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cakeApplicatiionUITests.swift; sourceTree = "<group>"; };
 		B4D3D3BF277523B400135DD2 /* cakeApplicatiionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cakeApplicatiionUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B4D3D3D127754E5600135DD2 /* DashboardScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScreenView.swift; sourceTree = "<group>"; };
 		B4D3D3D327754ED200135DD2 /* CreateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateModel.swift; sourceTree = "<group>"; };
 		B4D3D3D527754EFB00135DD2 /* TabBarScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarScreenView.swift; sourceTree = "<group>"; };
 		B4D3D3D727754F3800135DD2 /* CreateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreen.swift; sourceTree = "<group>"; };
 		B4D3D3D927754FD000135DD2 /* AccountScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountScreenView.swift; sourceTree = "<group>"; };
 		B4D3D3DD277550F200135DD2 /* ForgotPasswordScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordScreenView.swift; sourceTree = "<group>"; };
-		B4D3D3DF2775511000135DD2 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		B4D3D3E12775512D00135DD2 /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
-		B4D3D3E5277554C400135DD2 /* NavigationBarScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarScreenView.swift; sourceTree = "<group>"; };
 		B4D3D3E92775551000135DD2 /* FavouriteScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteScreenView.swift; sourceTree = "<group>"; };
 		DCAD76D82775644E0055043F /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		DCAD76DA277566670055043F /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
@@ -165,15 +159,12 @@
 		B4D3D3D027754E2800135DD2 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
-				B4D3D3D127754E5600135DD2 /* DashboardScreenView.swift */,
 				B4D3D3D327754ED200135DD2 /* CreateModel.swift */,
 				B4D3D3D527754EFB00135DD2 /* TabBarScreenView.swift */,
 				B4D3D3D727754F3800135DD2 /* CreateScreen.swift */,
 				B4D3D3D927754FD000135DD2 /* AccountScreenView.swift */,
 				B4D3D3E12775512D00135DD2 /* SignInScreenView.swift */,
 				B4D3D3DD277550F200135DD2 /* ForgotPasswordScreenView.swift */,
-				B4D3D3DF2775511000135DD2 /* HomeScreenView.swift */,
-				B4D3D3E5277554C400135DD2 /* NavigationBarScreenView.swift */,
 				B4D3D3E92775551000135DD2 /* FavouriteScreenView.swift */,
 				DCAD76D82775644E0055043F /* ProductModel.swift */,
 				DCAD76DA277566670055043F /* TitleView.swift */,
@@ -319,14 +310,11 @@
 				B4D3D3E22775512D00135DD2 /* SignInScreenView.swift in Sources */,
 				DCAD76DB277566670055043F /* TitleView.swift in Sources */,
 				B4D3D3D627754EFB00135DD2 /* TabBarScreenView.swift in Sources */,
-				B4D3D3E02775511000135DD2 /* HomeScreenView.swift in Sources */,
 				B4D3D3A0277523B300135DD2 /* ContentView.swift in Sources */,
 				B4D3D3DE277550F200135DD2 /* ForgotPasswordScreenView.swift in Sources */,
 				B4D3D3AA277523B400135DD2 /* cakeApplicatiion.xcdatamodeld in Sources */,
 				DCAD76DD27756B290055043F /* CakeDetailScreenView.swift in Sources */,
 				B4D3D39E277523B300135DD2 /* cakeApplicatiionApp.swift in Sources */,
-				B4D3D3D227754E5600135DD2 /* DashboardScreenView.swift in Sources */,
-				B4D3D3E6277554C400135DD2 /* NavigationBarScreenView.swift in Sources */,
 				B4D3D3D427754ED200135DD2 /* CreateModel.swift in Sources */,
 				B4D3D3DA27754FD000135DD2 /* AccountScreenView.swift in Sources */,
 				B4D3D3EA2775551000135DD2 /* FavouriteScreenView.swift in Sources */,
