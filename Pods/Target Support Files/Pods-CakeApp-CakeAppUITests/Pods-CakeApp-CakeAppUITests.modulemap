@@ -1,0 +1,6 @@
+framework module Pods_CakeApp_CakeAppUITests {
+  umbrella header "Pods-CakeApp-CakeAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,941 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D2BDA29279BECAB0049BFFF /* GlobalFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BDA28279BECAB0049BFFF /* GlobalFunction.swift */; };
+		DB083CBB2789CACB002D4688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB083CBA2789CACB002D4688 /* AppDelegate.swift */; };
+		DB083CBD2789CACB002D4688 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB083CBC2789CACB002D4688 /* SceneDelegate.swift */; };
+		DB083CBF2789CACB002D4688 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB083CBE2789CACB002D4688 /* ViewController.swift */; };
+		DB083CC22789CACB002D4688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB083CC02789CACB002D4688 /* Main.storyboard */; };
+		DB083CC52789CACB002D4688 /* CakeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB083CC32789CACB002D4688 /* CakeApp.xcdatamodeld */; };
+		DB083CC72789CACD002D4688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB083CC62789CACD002D4688 /* Assets.xcassets */; };
+		DB083CCA2789CACD002D4688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB083CC82789CACD002D4688 /* LaunchScreen.storyboard */; };
+		DB083CD52789CACD002D4688 /* CakeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB083CD42789CACD002D4688 /* CakeAppTests.swift */; };
+		DB083CDF2789CACD002D4688 /* CakeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB083CDE2789CACD002D4688 /* CakeAppUITests.swift */; };
+		DB083CE12789CACD002D4688 /* CakeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB083CE02789CACD002D4688 /* CakeAppUITestsLaunchTests.swift */; };
+		DB083CF02789D726002D4688 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB083CEF2789D726002D4688 /* HomeVC.swift */; };
+		DB3180B02791DBC200A6137E /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3180AF2791DBC200A6137E /* SearchVC.swift */; };
+		DB3180B42791E09000A6137E /* CollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3180B32791E09000A6137E /* CollectionView+Extension.swift */; };
+		DB3180B62791E98D00A6137E /* FavouriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3180B52791E98C00A6137E /* FavouriteVC.swift */; };
+		DB3180B82791EF5700A6137E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3180B72791EF5700A6137E /* MenuViewController.swift */; };
+		DB63B799279AEF4900955FCD /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63B78F279AEF4900955FCD /* UIApplication+Extension.swift */; };
+		DB63B79A279AEF4A00955FCD /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63B790279AEF4900955FCD /* UIImageView+Extensions.swift */; };
+		DB63B79B279AEF4A00955FCD /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63B791279AEF4900955FCD /* UIViewController+Extensions.swift */; };
+		DB63B79C279AEF4A00955FCD /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63B792279AEF4900955FCD /* Alert.swift */; };
+		DB63B79D279AEF4A00955FCD /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63B793279AEF4900955FCD /* UserDefault.swift */; };
+		DB63B79E279AEF4A00955FCD /* UserDefault+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63B794279AEF4900955FCD /* UserDefault+Extension.swift */; };
+		DB63B79F279AEF4A00955FCD /* UITapGesture+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63B795279AEF4900955FCD /* UITapGesture+Extensions.swift */; };
+		DB63B7A0279AEF4A00955FCD /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63B796279AEF4900955FCD /* String+Extension.swift */; };
+		DB63B7A1279AEF4A00955FCD /* UIStoryBoard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63B797279AEF4900955FCD /* UIStoryBoard+Extension.swift */; };
+		DB63B7A2279AEF4A00955FCD /* StringFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63B798279AEF4900955FCD /* StringFile.swift */; };
+		DB63B7A4279AF5E400955FCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB63B7A3279AF5E400955FCD /* GoogleService-Info.plist */; };
+		DB63B7A7279AFB1A00955FCD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63B7A6279AFB1A00955FCD /* UserModel.swift */; };
+		DB63B7A9279AFF9500955FCD /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63B7A8279AFF9500955FCD /* ProductModel.swift */; };
+		DB6EC1262792ACEF00F86AFE /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6EC1252792ACEF00F86AFE /* OrderViewController.swift */; };
+		DB7183F0279409670068449D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7183EF279409670068449D /* ForgotPasswordViewController.swift */; };
+		DB7183FF279410BD0068449D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7183FE279410BD0068449D /* CreateAccountViewController.swift */; };
+		DB71840127942CF70068449D /* CustomCakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB71840027942CF70068449D /* CustomCakeViewController.swift */; };
+		DB7BF52B279493A100566EE2 /* CakeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7BF52A279493A100566EE2 /* CakeDetailsViewController.swift */; };
+		DB7BF52D279499BA00566EE2 /* HomeNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7BF52C279499BA00566EE2 /* HomeNav.swift */; };
+		DB90107D279B1B69003FE350 /* FavouriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90107C279B1B69003FE350 /* FavouriteModel.swift */; };
+		DB90107F279B3518003FE350 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90107E279B3518003FE350 /* OrderModel.swift */; };
+		DBC720F4279E0288005857DE /* AppleLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC720F3279E0288005857DE /* AppleLogin.swift */; };
+		DBC929F62795EF53003C3BDA /* CakeTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC929F52795EF53003C3BDA /* CakeTypeViewController.swift */; };
+		DBC929F82795EFCF003C3BDA /* CakeShapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC929F72795EFCF003C3BDA /* CakeShapeViewController.swift */; };
+		DBC929FA2795EFE3003C3BDA /* CakeSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC929F92795EFE3003C3BDA /* CakeSizeViewController.swift */; };
+		DBC929FC2795EFF6003C3BDA /* CakeFlavourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC929FB2795EFF6003C3BDA /* CakeFlavourViewController.swift */; };
+		DBC929FE2795F02B003C3BDA /* CakeFillingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC929FD2795F02B003C3BDA /* CakeFillingViewController.swift */; };
+		DBC92A012795F0CB003C3BDA /* CakeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC92A002795F0CB003C3BDA /* CakeInfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB083CD12789CACD002D4688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB083CAF2789CACB002D4688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB083CB62789CACB002D4688;
+			remoteInfo = CakeApp;
+		};
+		DB083CDB2789CACD002D4688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB083CAF2789CACB002D4688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB083CB62789CACB002D4688;
+			remoteInfo = CakeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0057C25603C9DBDEF4F62F7F /* Pods-CakeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeApp.debug.xcconfig"; path = "Target Support Files/Pods-CakeApp/Pods-CakeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5D2BDA28279BECAB0049BFFF /* GlobalFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunction.swift; sourceTree = "<group>"; };
+		9EC3068F7AA6CE5071C7BAB5 /* Pods-CakeApp-CakeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeApp-CakeAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-CakeApp-CakeAppUITests/Pods-CakeApp-CakeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8521B3D6DA08CE6DAC00519 /* Pods-CakeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CakeAppTests/Pods-CakeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB083CB72789CACB002D4688 /* CakeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CakeApp.app; path = "/Users/mayurkhambhadiya/Downloads/CakeApp 2/build/Debug-iphoneos/CakeApp.app"; sourceTree = "<absolute>"; };
+		DB083CBA2789CACB002D4688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB083CBC2789CACB002D4688 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB083CBE2789CACB002D4688 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB083CC12789CACB002D4688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB083CC42789CACB002D4688 /* CakeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CakeApp.xcdatamodel; sourceTree = "<group>"; };
+		DB083CC62789CACD002D4688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB083CC92789CACD002D4688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB083CCB2789CACD002D4688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB083CD02789CACD002D4688 /* CakeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CakeAppTests.xctest; path = "/Users/mayurkhambhadiya/Downloads/CakeApp 2/build/Debug-iphoneos/CakeAppTests.xctest"; sourceTree = "<absolute>"; };
+		DB083CD42789CACD002D4688 /* CakeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeAppTests.swift; sourceTree = "<group>"; };
+		DB083CDA2789CACD002D4688 /* CakeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CakeAppUITests.xctest; path = "/Users/mayurkhambhadiya/Downloads/CakeApp 2/build/Debug-iphoneos/CakeAppUITests.xctest"; sourceTree = "<absolute>"; };
+		DB083CDE2789CACD002D4688 /* CakeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeAppUITests.swift; sourceTree = "<group>"; };
+		DB083CE02789CACD002D4688 /* CakeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB083CEF2789D726002D4688 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		DB0CAE602795386700260072 /* CakeApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CakeApp.entitlements; sourceTree = "<group>"; };
+		DB3180AF2791DBC200A6137E /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		DB3180B32791E09000A6137E /* CollectionView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollectionView+Extension.swift"; sourceTree = "<group>"; };
+		DB3180B52791E98C00A6137E /* FavouriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteVC.swift; sourceTree = "<group>"; };
+		DB3180B72791EF5700A6137E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		DB63B78F279AEF4900955FCD /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		DB63B790279AEF4900955FCD /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		DB63B791279AEF4900955FCD /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		DB63B792279AEF4900955FCD /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		DB63B793279AEF4900955FCD /* UserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		DB63B794279AEF4900955FCD /* UserDefault+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefault+Extension.swift"; sourceTree = "<group>"; };
+		DB63B795279AEF4900955FCD /* UITapGesture+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITapGesture+Extensions.swift"; sourceTree = "<group>"; };
+		DB63B796279AEF4900955FCD /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		DB63B797279AEF4900955FCD /* UIStoryBoard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryBoard+Extension.swift"; sourceTree = "<group>"; };
+		DB63B798279AEF4900955FCD /* StringFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringFile.swift; sourceTree = "<group>"; };
+		DB63B7A3279AF5E400955FCD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB63B7A6279AFB1A00955FCD /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		DB63B7A8279AFF9500955FCD /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		DB6EC1252792ACEF00F86AFE /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		DB7183EF279409670068449D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		DB7183FE279410BD0068449D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		DB71840027942CF70068449D /* CustomCakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCakeViewController.swift; sourceTree = "<group>"; };
+		DB7BF52A279493A100566EE2 /* CakeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeDetailsViewController.swift; sourceTree = "<group>"; };
+		DB7BF52C279499BA00566EE2 /* HomeNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNav.swift; sourceTree = "<group>"; };
+		DB90107C279B1B69003FE350 /* FavouriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteModel.swift; sourceTree = "<group>"; };
+		DB90107E279B3518003FE350 /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		DBC720F3279E0288005857DE /* AppleLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLogin.swift; sourceTree = "<group>"; };
+		DBC929F52795EF53003C3BDA /* CakeTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeTypeViewController.swift; sourceTree = "<group>"; };
+		DBC929F72795EFCF003C3BDA /* CakeShapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeShapeViewController.swift; sourceTree = "<group>"; };
+		DBC929F92795EFE3003C3BDA /* CakeSizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeSizeViewController.swift; sourceTree = "<group>"; };
+		DBC929FB2795EFF6003C3BDA /* CakeFlavourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeFlavourViewController.swift; sourceTree = "<group>"; };
+		DBC929FD2795F02B003C3BDA /* CakeFillingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeFillingViewController.swift; sourceTree = "<group>"; };
+		DBC92A002795F0CB003C3BDA /* CakeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeInfoViewController.swift; sourceTree = "<group>"; };
+		E3B7DA36BBEBF827E7989A19 /* Pods-CakeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeAppTests.release.xcconfig"; path = "Target Support Files/Pods-CakeAppTests/Pods-CakeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		E724E8A1FCD3D2C4FA3899B4 /* Pods-CakeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeApp.release.xcconfig"; path = "Target Support Files/Pods-CakeApp/Pods-CakeApp.release.xcconfig"; sourceTree = "<group>"; };
+		FD52B01B35701E7E8A234397 /* Pods-CakeApp-CakeAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeApp-CakeAppUITests.release.xcconfig"; path = "Target Support Files/Pods-CakeApp-CakeAppUITests/Pods-CakeApp-CakeAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB083CB42789CACB002D4688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB083CCD2789CACD002D4688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB083CD72789CACD002D4688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA7EC5C5536325CA6B561C9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0057C25603C9DBDEF4F62F7F /* Pods-CakeApp.debug.xcconfig */,
+				E724E8A1FCD3D2C4FA3899B4 /* Pods-CakeApp.release.xcconfig */,
+				9EC3068F7AA6CE5071C7BAB5 /* Pods-CakeApp-CakeAppUITests.debug.xcconfig */,
+				FD52B01B35701E7E8A234397 /* Pods-CakeApp-CakeAppUITests.release.xcconfig */,
+				C8521B3D6DA08CE6DAC00519 /* Pods-CakeAppTests.debug.xcconfig */,
+				E3B7DA36BBEBF827E7989A19 /* Pods-CakeAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB083CAE2789CACB002D4688 = {
+			isa = PBXGroup;
+			children = (
+				DB083CB92789CACB002D4688 /* CakeApp */,
+				DB083CD32789CACD002D4688 /* CakeAppTests */,
+				DB083CDD2789CACD002D4688 /* CakeAppUITests */,
+				AA7EC5C5536325CA6B561C9C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DB083CB92789CACB002D4688 /* CakeApp */ = {
+			isa = PBXGroup;
+			children = (
+				5D2BDA28279BECAB0049BFFF /* GlobalFunction.swift */,
+				DB63B7A5279AFB0600955FCD /* Model */,
+				DB63B7A3279AF5E400955FCD /* GoogleService-Info.plist */,
+				DB63B78E279AEF4900955FCD /* Extensions */,
+				DB0CAE602795386700260072 /* CakeApp.entitlements */,
+				DB3180B32791E09000A6137E /* CollectionView+Extension.swift */,
+				DB083CED2789D6F2002D4688 /* Scenes */,
+				DB083CBA2789CACB002D4688 /* AppDelegate.swift */,
+				DB083CBC2789CACB002D4688 /* SceneDelegate.swift */,
+				DB083CBE2789CACB002D4688 /* ViewController.swift */,
+				DB083CC02789CACB002D4688 /* Main.storyboard */,
+				DB083CC62789CACD002D4688 /* Assets.xcassets */,
+				DB083CC82789CACD002D4688 /* LaunchScreen.storyboard */,
+				DB083CCB2789CACD002D4688 /* Info.plist */,
+				DB083CC32789CACB002D4688 /* CakeApp.xcdatamodeld */,
+			);
+			path = CakeApp;
+			sourceTree = "<group>";
+		};
+		DB083CD32789CACD002D4688 /* CakeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB083CD42789CACD002D4688 /* CakeAppTests.swift */,
+			);
+			path = CakeAppTests;
+			sourceTree = "<group>";
+		};
+		DB083CDD2789CACD002D4688 /* CakeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB083CDE2789CACD002D4688 /* CakeAppUITests.swift */,
+				DB083CE02789CACD002D4688 /* CakeAppUITestsLaunchTests.swift */,
+			);
+			path = CakeAppUITests;
+			sourceTree = "<group>";
+		};
+		DB083CED2789D6F2002D4688 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				DB083CEE2789D6FC002D4688 /* ViewControllers */,
+				DB6EC1252792ACEF00F86AFE /* OrderViewController.swift */,
+				DB7BF52C279499BA00566EE2 /* HomeNav.swift */,
+				DBC720F3279E0288005857DE /* AppleLogin.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		DB083CEE2789D6FC002D4688 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB7183EF279409670068449D /* ForgotPasswordViewController.swift */,
+				DB083CEF2789D726002D4688 /* HomeVC.swift */,
+				DB3180AF2791DBC200A6137E /* SearchVC.swift */,
+				DB3180B52791E98C00A6137E /* FavouriteVC.swift */,
+				DB3180B72791EF5700A6137E /* MenuViewController.swift */,
+				DB7183FE279410BD0068449D /* CreateAccountViewController.swift */,
+				DB71840027942CF70068449D /* CustomCakeViewController.swift */,
+				DB7BF52A279493A100566EE2 /* CakeDetailsViewController.swift */,
+				DBC929F52795EF53003C3BDA /* CakeTypeViewController.swift */,
+				DBC929F72795EFCF003C3BDA /* CakeShapeViewController.swift */,
+				DBC929F92795EFE3003C3BDA /* CakeSizeViewController.swift */,
+				DBC929FB2795EFF6003C3BDA /* CakeFlavourViewController.swift */,
+				DBC929FD2795F02B003C3BDA /* CakeFillingViewController.swift */,
+				DBC92A002795F0CB003C3BDA /* CakeInfoViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DB63B78E279AEF4900955FCD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DB63B78F279AEF4900955FCD /* UIApplication+Extension.swift */,
+				DB63B790279AEF4900955FCD /* UIImageView+Extensions.swift */,
+				DB63B791279AEF4900955FCD /* UIViewController+Extensions.swift */,
+				DB63B792279AEF4900955FCD /* Alert.swift */,
+				DB63B793279AEF4900955FCD /* UserDefault.swift */,
+				DB63B794279AEF4900955FCD /* UserDefault+Extension.swift */,
+				DB63B795279AEF4900955FCD /* UITapGesture+Extensions.swift */,
+				DB63B796279AEF4900955FCD /* String+Extension.swift */,
+				DB63B797279AEF4900955FCD /* UIStoryBoard+Extension.swift */,
+				DB63B798279AEF4900955FCD /* StringFile.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DB63B7A5279AFB0600955FCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB63B7A6279AFB1A00955FCD /* UserModel.swift */,
+				DB63B7A8279AFF9500955FCD /* ProductModel.swift */,
+				DB90107C279B1B69003FE350 /* FavouriteModel.swift */,
+				DB90107E279B3518003FE350 /* OrderModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB083CB62789CACB002D4688 /* CakeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB083CE42789CACD002D4688 /* Build configuration list for PBXNativeTarget "CakeApp" */;
+			buildPhases = (
+				1CE58A40092E55DB6806E9E7 /* [CP] Check Pods Manifest.lock */,
+				DB083CB32789CACB002D4688 /* Sources */,
+				DB083CB42789CACB002D4688 /* Frameworks */,
+				DB083CB52789CACB002D4688 /* Resources */,
+				086886945F80872C1B58D490 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CakeApp;
+			productName = CakeApp;
+			productReference = DB083CB72789CACB002D4688 /* CakeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB083CCF2789CACD002D4688 /* CakeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB083CE72789CACD002D4688 /* Build configuration list for PBXNativeTarget "CakeAppTests" */;
+			buildPhases = (
+				DB27171441A017429F36861F /* [CP] Check Pods Manifest.lock */,
+				DB083CCC2789CACD002D4688 /* Sources */,
+				DB083CCD2789CACD002D4688 /* Frameworks */,
+				DB083CCE2789CACD002D4688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB083CD22789CACD002D4688 /* PBXTargetDependency */,
+			);
+			name = CakeAppTests;
+			productName = CakeAppTests;
+			productReference = DB083CD02789CACD002D4688 /* CakeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB083CD92789CACD002D4688 /* CakeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB083CEA2789CACD002D4688 /* Build configuration list for PBXNativeTarget "CakeAppUITests" */;
+			buildPhases = (
+				8A6AAEBECB512BDFA19B8979 /* [CP] Check Pods Manifest.lock */,
+				DB083CD62789CACD002D4688 /* Sources */,
+				DB083CD72789CACD002D4688 /* Frameworks */,
+				DB083CD82789CACD002D4688 /* Resources */,
+				A4A9F7D4A642B7E2892A429E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB083CDC2789CACD002D4688 /* PBXTargetDependency */,
+			);
+			name = CakeAppUITests;
+			productName = CakeAppUITests;
+			productReference = DB083CDA2789CACD002D4688 /* CakeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB083CAF2789CACB002D4688 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DB083CB62789CACB002D4688 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DB083CCF2789CACD002D4688 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DB083CB62789CACB002D4688;
+					};
+					DB083CD92789CACD002D4688 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DB083CB62789CACB002D4688;
+					};
+				};
+			};
+			buildConfigurationList = DB083CB22789CACB002D4688 /* Build configuration list for PBXProject "CakeApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB083CAE2789CACB002D4688;
+			productRefGroup = DB083CAE2789CACB002D4688;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB083CB62789CACB002D4688 /* CakeApp */,
+				DB083CCF2789CACD002D4688 /* CakeAppTests */,
+				DB083CD92789CACD002D4688 /* CakeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB083CB52789CACB002D4688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB083CCA2789CACD002D4688 /* LaunchScreen.storyboard in Resources */,
+				DB63B7A4279AF5E400955FCD /* GoogleService-Info.plist in Resources */,
+				DB083CC72789CACD002D4688 /* Assets.xcassets in Resources */,
+				DB083CC22789CACB002D4688 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB083CCE2789CACD002D4688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB083CD82789CACD002D4688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		086886945F80872C1B58D490 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CakeApp/Pods-CakeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CakeApp/Pods-CakeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CakeApp/Pods-CakeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CE58A40092E55DB6806E9E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CakeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A6AAEBECB512BDFA19B8979 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CakeApp-CakeAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4A9F7D4A642B7E2892A429E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CakeApp-CakeAppUITests/Pods-CakeApp-CakeAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CakeApp-CakeAppUITests/Pods-CakeApp-CakeAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CakeApp-CakeAppUITests/Pods-CakeApp-CakeAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB27171441A017429F36861F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CakeAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB083CB32789CACB002D4688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3180B02791DBC200A6137E /* SearchVC.swift in Sources */,
+				DB63B7A2279AEF4A00955FCD /* StringFile.swift in Sources */,
+				DB63B7A9279AFF9500955FCD /* ProductModel.swift in Sources */,
+				DB6EC1262792ACEF00F86AFE /* OrderViewController.swift in Sources */,
+				DBC929FE2795F02B003C3BDA /* CakeFillingViewController.swift in Sources */,
+				DB71840127942CF70068449D /* CustomCakeViewController.swift in Sources */,
+				DB63B799279AEF4900955FCD /* UIApplication+Extension.swift in Sources */,
+				DB63B79A279AEF4A00955FCD /* UIImageView+Extensions.swift in Sources */,
+				DBC929FC2795EFF6003C3BDA /* CakeFlavourViewController.swift in Sources */,
+				DB7183F0279409670068449D /* ForgotPasswordViewController.swift in Sources */,
+				DB63B7A7279AFB1A00955FCD /* UserModel.swift in Sources */,
+				DB3180B42791E09000A6137E /* CollectionView+Extension.swift in Sources */,
+				DB7183FF279410BD0068449D /* CreateAccountViewController.swift in Sources */,
+				DB3180B62791E98D00A6137E /* FavouriteVC.swift in Sources */,
+				DB63B79B279AEF4A00955FCD /* UIViewController+Extensions.swift in Sources */,
+				DBC929FA2795EFE3003C3BDA /* CakeSizeViewController.swift in Sources */,
+				DBC929F62795EF53003C3BDA /* CakeTypeViewController.swift in Sources */,
+				DB083CBF2789CACB002D4688 /* ViewController.swift in Sources */,
+				DB3180B82791EF5700A6137E /* MenuViewController.swift in Sources */,
+				DB083CF02789D726002D4688 /* HomeVC.swift in Sources */,
+				DB63B79E279AEF4A00955FCD /* UserDefault+Extension.swift in Sources */,
+				DB63B7A1279AEF4A00955FCD /* UIStoryBoard+Extension.swift in Sources */,
+				DB63B79F279AEF4A00955FCD /* UITapGesture+Extensions.swift in Sources */,
+				DB63B79C279AEF4A00955FCD /* Alert.swift in Sources */,
+				DB7BF52B279493A100566EE2 /* CakeDetailsViewController.swift in Sources */,
+				DB083CC52789CACB002D4688 /* CakeApp.xcdatamodeld in Sources */,
+				DBC929F82795EFCF003C3BDA /* CakeShapeViewController.swift in Sources */,
+				DB90107F279B3518003FE350 /* OrderModel.swift in Sources */,
+				DBC92A012795F0CB003C3BDA /* CakeInfoViewController.swift in Sources */,
+				DB63B79D279AEF4A00955FCD /* UserDefault.swift in Sources */,
+				DB083CBB2789CACB002D4688 /* AppDelegate.swift in Sources */,
+				DB7BF52D279499BA00566EE2 /* HomeNav.swift in Sources */,
+				5D2BDA29279BECAB0049BFFF /* GlobalFunction.swift in Sources */,
+				DB63B7A0279AEF4A00955FCD /* String+Extension.swift in Sources */,
+				DB90107D279B1B69003FE350 /* FavouriteModel.swift in Sources */,
+				DB083CBD2789CACB002D4688 /* SceneDelegate.swift in Sources */,
+				DBC720F4279E0288005857DE /* AppleLogin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB083CCC2789CACD002D4688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB083CD52789CACD002D4688 /* CakeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB083CD62789CACD002D4688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB083CE12789CACD002D4688 /* CakeAppUITestsLaunchTests.swift in Sources */,
+				DB083CDF2789CACD002D4688 /* CakeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB083CD22789CACD002D4688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB083CB62789CACB002D4688 /* CakeApp */;
+			targetProxy = DB083CD12789CACD002D4688 /* PBXContainerItemProxy */;
+		};
+		DB083CDC2789CACD002D4688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB083CB62789CACB002D4688 /* CakeApp */;
+			targetProxy = DB083CDB2789CACD002D4688 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB083CC02789CACB002D4688 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB083CC12789CACB002D4688 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB083CC82789CACD002D4688 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB083CC92789CACD002D4688 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB083CE22789CACD002D4688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB083CE32789CACD002D4688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB083CE52789CACD002D4688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0057C25603C9DBDEF4F62F7F /* Pods-CakeApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CakeApp/CakeApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CakeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kinjal.CakeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB083CE62789CACD002D4688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E724E8A1FCD3D2C4FA3899B4 /* Pods-CakeApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CakeApp/CakeApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CakeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kinjal.CakeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB083CE82789CACD002D4688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8521B3D6DA08CE6DAC00519 /* Pods-CakeAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kinjal.CakeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CakeApp.app/CakeApp";
+			};
+			name = Debug;
+		};
+		DB083CE92789CACD002D4688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B7DA36BBEBF827E7989A19 /* Pods-CakeAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kinjal.CakeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CakeApp.app/CakeApp";
+			};
+			name = Release;
+		};
+		DB083CEB2789CACD002D4688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC3068F7AA6CE5071C7BAB5 /* Pods-CakeApp-CakeAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kinjal.CakeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CakeApp;
+			};
+			name = Debug;
+		};
+		DB083CEC2789CACD002D4688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD52B01B35701E7E8A234397 /* Pods-CakeApp-CakeAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kinjal.CakeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CakeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB083CB22789CACB002D4688 /* Build configuration list for PBXProject "CakeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB083CE22789CACD002D4688 /* Debug */,
+				DB083CE32789CACD002D4688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB083CE42789CACD002D4688 /* Build configuration list for PBXNativeTarget "CakeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB083CE52789CACD002D4688 /* Debug */,
+				DB083CE62789CACD002D4688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB083CE72789CACD002D4688 /* Build configuration list for PBXNativeTarget "CakeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB083CE82789CACD002D4688 /* Debug */,
+				DB083CE92789CACD002D4688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB083CEA2789CACD002D4688 /* Build configuration list for PBXNativeTarget "CakeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB083CEB2789CACD002D4688 /* Debug */,
+				DB083CEC2789CACD002D4688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB083CC32789CACB002D4688 /* CakeApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB083CC42789CACB002D4688 /* CakeApp.xcdatamodel */,
+			);
+			currentVersion = DB083CC42789CACB002D4688 /* CakeApp.xcdatamodel */;
+			path = CakeApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB083CAF2789CACB002D4688 /* Project object */;
+}
