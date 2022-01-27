@@ -68,4 +68,27 @@ class CakeDetailsViewController: UIViewController {
         }
     }
     
-    
+    func addOrderData(){
+        var ref : DocumentReference? = nil
+        
+        ref = AppDelegate.shared.db.collection(cOrders).addDocument(data:
+                                                                        [ cName: self.data.name.description,
+                                                                            cId: self.data.id.description,
+                                                                        cPrice : self.data.price.description,
+                                                                   cDescription: self.data.description.description,
+                                                                         cImage: self.data.image.description,
+                                                                         cEmail: UserDefaults.standard.string(forKey: UserDefaults.Keys.user)?.description,
+                                                                     cIsDeliver: true
+            ])
+        {  err in
+            if let err = err {
+                print("Error adding document: \(err)")
+            } else {
+                //self.flag = true
+                print("Document added with ID: \(ref!.documentID)")
+            }
+        }
+    }
+}
+
+
