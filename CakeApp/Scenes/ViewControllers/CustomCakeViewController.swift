@@ -2,7 +2,7 @@
 //  CustomCakeViewController.swift
 //  CakeApp
 //
-//  Created shivanee.
+//  Created
 //
 
 import UIKit
@@ -270,4 +270,30 @@ class CustomCakeViewController: UIViewController, UITableViewDelegate, UITableVi
                                                                          cImage: "https://firebasestorage.googleapis.com/v0/b/cakeapp-e52af.appspot.com/o/product%2Fcake1.jpg?alt=media&token=39d02f46-2bb0-4a90-9b2d-daa5413253f4",
                                                                          cEmail: UserDefaults.standard.string(forKey: UserDefaults.Keys.user)?.description,
                                                                      cIsDeliver: false
-       
+            ])
+        {  err in
+            if let err = err {
+                print("Error adding document: \(err)")
+            } else {
+                //self.flag = true
+                print("Document added with ID: \(ref!.documentID)")
+                Alert.shared.showAlert(message: "Your custom cake order has been placed !!!", completion: nil)
+            }
+        }
+    }
+}
+
+class TypeCell: UITableViewCell {
+    
+    @IBOutlet weak var lblTitle: UILabel!
+    @IBOutlet weak var imgCakeType: UIImageView!
+    
+    func configCell(data: model) {
+        DispatchQueue.main.async {
+            self.imgCakeType.setImageForName(string: data.imageString ?? "", circular: true)
+        }
+        
+        self.lblTitle.text = data.title
+    }
+}
+
