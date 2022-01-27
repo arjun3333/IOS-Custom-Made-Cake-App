@@ -72,9 +72,9 @@
 
 /* Begin PBXFileReference section */
 		0057C25603C9DBDEF4F62F7F /* Pods-CakeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeApp.debug.xcconfig"; path = "Target Support Files/Pods-CakeApp/Pods-CakeApp.debug.xcconfig"; sourceTree = "<group>"; };
-		3CBD186B27A2088400AF0F32 /* CakeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CakeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CBD186C27A2088400AF0F32 /* CakeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CakeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CBD186D27A2088400AF0F32 /* CakeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CakeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBD186B27A2088400AF0F32 /* CakeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CakeApp.app; path = "/Users/sinipatel/Desktop/IOS-Custom-Made-Cake-App/build/Debug-iphoneos/CakeApp.app"; sourceTree = "<absolute>"; };
+		3CBD186C27A2088400AF0F32 /* CakeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CakeAppTests.xctest; path = "/Users/sinipatel/Desktop/IOS-Custom-Made-Cake-App/build/Debug-iphoneos/CakeAppTests.xctest"; sourceTree = "<absolute>"; };
+		3CBD186D27A2088400AF0F32 /* CakeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CakeAppUITests.xctest; path = "/Users/sinipatel/Desktop/IOS-Custom-Made-Cake-App/build/Debug-iphoneos/CakeAppUITests.xctest"; sourceTree = "<absolute>"; };
 		5D2BDA28279BECAB0049BFFF /* GlobalFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunction.swift; sourceTree = "<group>"; };
 		9EC3068F7AA6CE5071C7BAB5 /* Pods-CakeApp-CakeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeApp-CakeAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-CakeApp-CakeAppUITests/Pods-CakeApp-CakeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8521B3D6DA08CE6DAC00519 /* Pods-CakeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CakeAppTests/Pods-CakeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -153,6 +153,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CBD186E27A2249D00AF0F32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
 		AA7EC5C5536325CA6B561C9C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,9 +180,7 @@
 				DB083CD32789CACD002D4688 /* CakeAppTests */,
 				DB083CDD2789CACD002D4688 /* CakeAppUITests */,
 				AA7EC5C5536325CA6B561C9C /* Pods */,
-				3CBD186B27A2088400AF0F32 /* CakeApp.app */,
-				3CBD186C27A2088400AF0F32 /* CakeAppTests.xctest */,
-				3CBD186D27A2088400AF0F32 /* CakeAppUITests.xctest */,
+				3CBD186E27A2249D00AF0F32 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
